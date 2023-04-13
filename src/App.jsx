@@ -1,13 +1,15 @@
-import { useState } from 'react'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <div className="App">
-      CodeLeap Network
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Login/>}></Route>
+        <Route path='/main' element={<Main/>}></Route>
+      </Routes>
+    </Router>
   )
 }
 
