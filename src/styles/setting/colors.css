@@ -1,7 +1,10 @@
 :root {
     --color-zero: #ffffff;
     --color-dark: #000000;
+
     --color-first: #999999;
     --color-second: #7695EC;
-    --color-background: rgba(119, 119, 119, 0.8);
+    --color-third: rgba(119, 119, 119, 0.8);
+    --color-fourth: #DDDDDD;
+    --color-fifth: #CCCCCC;
 }
