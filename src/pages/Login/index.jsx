@@ -1,4 +1,5 @@
 import styles from './styles.module.css'
+import Input from '../../components/Input';
 
 function Login() {
   return (
@@ -6,9 +7,7 @@ function Login() {
       <h1>
         Welcome to CodeLeap network!
       </h1>
-      <h2>
-        Please enter your username
-      </h2>
+      <Input title="Please enter your username" type="email" placeholder="John doe" />
     </div>
   );
 }
