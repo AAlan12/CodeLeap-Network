@@ -13,9 +13,18 @@
     align-items: start;
     display: flex;
     background: var(--color-zero);
-    color: var(--color-fifth);
+    color: var(--color-dark);
     border: 1px solid var(--color-sixth);
     border-radius: 8px;
     width: 452px;
     height: 32px;
+}
+
+.input_container button {
+    background-color: var(--color-second);
+    margin-top: 15px;
+    margin-left: 350px;  
+}
+.input_container button:active {
+    background-color: var(--color-second-dark);
 }
