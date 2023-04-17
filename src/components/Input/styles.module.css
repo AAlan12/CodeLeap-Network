@@ -24,6 +24,7 @@
     background-color: var(--color-second);
     margin-top: 15px;
     margin-left: 350px;  
+    color: var(--color-zero);
 }
 .input_container button:active {
     background-color: var(--color-second-dark);

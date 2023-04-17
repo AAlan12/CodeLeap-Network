@@ -1,0 +1,6 @@
+.container_title {
+    background-color: var(--color-second);
+    width: 800px;
+    display: flex;
+    top: 0px;
+}
