@@ -23,7 +23,7 @@
 .input_container button {
     background-color: var(--color-second);
     margin-top: 15px;
-    margin-left: 350px;  
+    margin-left: 372px;  
     color: var(--color-zero);
 }
 .input_container button:active {

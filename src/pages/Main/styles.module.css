@@ -1,6 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .container_title {
     background-color: var(--color-second);
     width: 800px;
+    height: 80px;
     display: flex;
-    top: 0px;
+    align-items: center;
+}
+
+.container_title h1 {
+    padding: 30px;
 }
