@@ -1,4 +1,5 @@
 import styles from './styles.module.css'
+import Titles from '../../assets/objects/Titles';
 
 function Main() {
   return (
@@ -10,9 +11,7 @@ function Main() {
       </div>
       <div className={styles.container_block}>
         <div className={styles.container_form}>
-          <h2>
-            What’s on your mind?
-          </h2>
+          <Titles title="Whats on your mind?" />
         </div>
       </div>
     </div>

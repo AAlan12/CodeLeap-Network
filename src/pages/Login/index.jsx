@@ -1,17 +1,15 @@
 import styles from './styles.module.css'
 import Input from '../../components/Input';
+import Titles from '../../assets/objects/Titles';
 
 function Login() {
   return (
     <div className={styles.container}>
       <div className={styles.container_login}>
-        <h1>
-          Welcome to CodeLeap network!
-        </h1>
+        <Titles title="Welcome to CodeLeap network!"/>
         <Input title="Please enter your username" type="email" placeholder="John doe" />
       </div>
     </div>
-
   );
 }
 
