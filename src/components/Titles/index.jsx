@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 function Titles({ title }) {
     return (
-        <h1>
+        <h1 className={styles.title}>
             {title}
         </h1>
     );

@@ -5,9 +5,8 @@ function Main() {
   return (
     <div className={styles.container}>
       <div className={styles.container_title}>
-        <h1>
-          CodeLeap Network
-        </h1>
+        <Titles title="CodeLeap Network" />
+       
       </div>
       <div className={styles.container_block}>
         <div className={styles.container_form}>
