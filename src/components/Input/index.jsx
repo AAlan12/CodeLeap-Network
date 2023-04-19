@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import Buttons from '../../assets/objects/Buttons';
+import styles from './styles.module.css';
+import Buttons from '../Buttons';
 
 function Input({title, type, placeholder}) {
     return (

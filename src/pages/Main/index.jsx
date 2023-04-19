@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import Titles from '../../assets/objects/Titles';
+import styles from './styles.module.css';
+import Titles from '../../components/Titles';
 
 function Main() {
   return (

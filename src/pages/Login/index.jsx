@@ -1,6 +1,6 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import Input from '../../components/Input';
-import Titles from '../../assets/objects/Titles';
+import Titles from '../../components/Titles';
 
 function Login() {
   return (
