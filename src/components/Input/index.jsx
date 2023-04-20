@@ -1,5 +1,4 @@
 import styles from './styles.module.css';
-import Buttons from '../Buttons';
 
 function Input({title, type, placeholder}) {
     return (
@@ -7,8 +6,7 @@ function Input({title, type, placeholder}) {
             <h2>
                 {title}
             </h2>
-            <input type={type} placeholder={placeholder}/>
-            <Buttons text="ENTER"/>
+            <input type={type} placeholder={placeholder}/>           
         </div>
     );
 }

@@ -19,13 +19,3 @@
     width: 452px;
     height: 32px;
 }
-
-.input_container button {
-    background-color: var(--color-second);
-    margin-top: 15px;
-    margin-left: 372px;  
-    color: var(--color-zero);
-}
-.input_container button:active {
-    background-color: var(--color-second-dark);
-}
