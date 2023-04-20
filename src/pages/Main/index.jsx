@@ -1,7 +1,5 @@
 import styles from './styles.module.css';
 import Titles from '../../components/Titles';
-import Input from '../../components/Input';
-import Buttons from '../../components/Buttons';
 import Form from '../../components/Form';
 import PostCard from '../../components/PostCard';
 

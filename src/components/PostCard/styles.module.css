@@ -1,0 +1,22 @@
+.container_header {
+    background-color: var(--color-second);
+    width: 752px;
+    height: 70px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_header h1 {
+    padding: 30px;
+}
+
+.container_icons {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
