@@ -1,6 +1,6 @@
 .container_header {
     background-color: var(--color-second);
-    width: 752px;
+    width: 751px;
     height: 70px;
     border-radius: 16px 16px 0px 0px;
 }
@@ -20,3 +20,33 @@
     gap: 20px;
     padding: 30px;
 }
+
+.container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.container_row {
+    width: 710px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_row h4 {
+    color: var(--color-sixth);
+    font-weight: 700;
+}
+
+.container_row h3 {
+    color: var(--color-sixth);
+    font-weight: 400;
+}
+
+.container_content p {
+    color: var(--color-dark);
+    padding: 15px; 
+}
+
