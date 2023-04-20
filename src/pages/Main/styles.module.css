@@ -28,7 +28,7 @@
 
 .container_post {
     width: 752px;
-    height: 316px;
+    height: auto;
     background: var(--color-zero);
     box-sizing: border-box;
     border: 1px solid var(--color-first);

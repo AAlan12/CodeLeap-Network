@@ -2,6 +2,7 @@ import styles from './styles.module.css';
 import Titles from '../../components/Titles';
 import Form from '../../components/Form';
 import PostCard from '../../components/PostCard';
+import AlertDelete from '../../components/AlertDelete';
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
                   Duis lobortis massa imperdiet quam. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Fusce a quam. Nullam vel sem. Nullam cursus lacinia erat." />
         </div>
       </div>
+      <AlertDelete />
     </div>
   );
 }

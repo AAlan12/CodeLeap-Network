@@ -1,5 +1,6 @@
 :root {
     --color-zero: #ffffff;
+    --color-zero-dark: #efeeee;
     --color-dark: #000000;
 
     --color-first: #999999;
@@ -10,4 +11,7 @@
     --color-fourth: #DDDDDD;
     --color-fifth: #CCCCCC;
     --color-sixth: #777777;
+    --color-seventh: #FF5151;
+    --color-seventh-dark: #e84848;
+     
 }
