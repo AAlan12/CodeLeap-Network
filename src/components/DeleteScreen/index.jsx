@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import Titles from '../Titles';
 import Buttons from '../Buttons';
 
-function AlertDelete() {
+function DeleteScreen() {
     return (
         <div className={styles.container_alert_del}>
             <Titles title="Are you sure you want to delete this item?" />
@@ -18,4 +18,4 @@ function AlertDelete() {
     );
 }
 
-export default AlertDelete;
+export default DeleteScreen;
