@@ -3,7 +3,10 @@ import Form from '../Form';
 
 function EditScreen() {
   return (
-    <Form />
+    <div className={styles.container_edit}>
+      <Form title="Edit item" btn="Save" />
+    </div>
+
   );
 }
 

@@ -1,8 +1,9 @@
-.container_alert_edit {
-    width: 660px;
-    height: 334px;
-    box-sizing: border-box;
-    background: var(--color-zero);
-    border: 1px solid var(--color-first);
-    border-radius: 16px;
+.container_edit button {
+    background-color: var(--color-eighth);
+    margin-top: 15px;
+    margin-left: 622px;  
+    color: var(--color-zero);
+}
+.container_edit button:active {
+    background-color: var(--color-eighth-dark);
 }

@@ -12,7 +12,7 @@ function Main() {
         <Titles title="CodeLeap Network" />
       </div>
       <div className={styles.container_block}>
-        <Form />
+        <Form title="Whats on your mind" btn="Create" />
         <div className={styles.container_post}>
           <PostCard 
                   title="My First Post at CodeLeap Network!" 

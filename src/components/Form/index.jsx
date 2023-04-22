@@ -3,15 +3,15 @@ import Titles from '../../components/Titles';
 import Input from '../../components/Input';
 import Buttons from '../../components/Buttons';
 
-function Form() {
+function Form({ title, btn}) {
     return (
         <div className={styles.container_form}>
-            <Titles title="Whats on your mind?" />
+            <Titles title={title} />
             <Input title="Title" type="text" placeholder="Hello world" />
             <div className={styles.content}>
                 <Input title="Content" type="text" placeholder="Content here" />
             </div>
-            <Buttons text="Create" />
+            <Buttons text={btn} />
         </div>
     );
 }
