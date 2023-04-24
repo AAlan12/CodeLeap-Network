@@ -10,10 +10,22 @@
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container_title h1 {
     padding: 30px;
+}
+
+container_title a {
+    text-decoration: none;
+}
+
+.container_title svg {
+    color: var(--color-zero);
+    padding: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .container_block {
